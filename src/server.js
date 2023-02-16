@@ -7,7 +7,9 @@ const server = http.createServer((req, res) => {
     const { method, url } = req
 
     if (method === 'GET' && url === '/users') {
-        return res.end(JSON.stringify(users))
+        return res
+        .setHeader('Content-Type', 'application/json')
+        .end(JSON.stringify(users))
     }
 
     if (method === 'POST' && url === '/users') {
@@ -17,7 +19,7 @@ const server = http.createServer((req, res) => {
             email: "fulano@gmail.com"
         })
 
-        return res.end('CRIAÇÃO DE USUÁRIOS')
+        return res.writeHead(201).end()
     }
 
     return res.end('EAI IGNITE NODE')
