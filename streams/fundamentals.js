@@ -1,6 +1,3 @@
-
-
-
 import { Readable, Writable, Transform, Duplex } from 'node:stream';
 
 class OneToHundredStream extends Readable {

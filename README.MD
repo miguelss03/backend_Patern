@@ -12,14 +12,13 @@
 # DELETE => Deletar um recurso do backend;
 
 
+# Streams no NODE.JS 
 
+# Buffer
 
-
-
-
-
-
-
+- O buffer é uma representação de um espaço na memorio do pc, usados para transitar dados de uma maneira muito rapida
+- São dados tratados naquele instantes, e logo em seguida removidos
+-
 
 
 
