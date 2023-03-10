@@ -27,9 +27,14 @@
 
 # Banco de dados
 
+///Referencia: src/database.js
 --> Um banco de dados baseado em arquivos fisicos
----   
-**
+--> O banco de dados é salvo em formato JSON e mantem a sua camada de persistencia fisica
+-->  iniciando automaticamente assim que se inicia a aplicação
+
+
+
+
 
 
 
