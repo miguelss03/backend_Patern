@@ -32,7 +32,12 @@
 --> O banco de dados é salvo em formato JSON e mantem a sua camada de persistencia fisica
 -->  iniciando automaticamente assim que se inicia a aplicação
 
+# Rotas da aplicação
 
+--> Foi separado as rotas da aplicação na sua pastas src/routes.js
+--> É utilizado uma unica verificação da condicional da chamada das rotas
+
+cliente faz a reqsição no servidor ---> servidor verifica se a req é correta comparando o 'method', 'path' e o 'url' que existe no servidor
 
 
 
