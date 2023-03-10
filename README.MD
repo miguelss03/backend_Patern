@@ -20,9 +20,16 @@
 - São dados tratados naquele instantes, e logo em seguida removidos
 -
 
+# Middlewares 
 
+- Ele é uma função que intercepta as "req, res" da nossa aplicação
+- com isso ele filtra a response do Content-type e transforma as informações em JSON
 
+# Banco de dados
 
+--> Um banco de dados baseado em arquivos fisicos
+---   
+**
 
 
 
